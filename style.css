@@ -11,7 +11,8 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
+    background-image: url("cyber.jpg")
 }
 .container{
     max-width: 700px;
@@ -24,6 +25,7 @@ body{
     font-size: 25px;
     font-weight: 500;
     position: relative;
+    align-items: center;
 }
 .container .title::before{
     content: '';
@@ -58,6 +60,7 @@ form .user-details .input-box{
     font-size: 16px;
     border-bottom-width: 4px;
     transition: all 0.3s ease;
+    background-color: #d1d1d1;
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
@@ -110,14 +113,16 @@ form .button input{
     font-weight: 500;
     border-radius: 10px;
     letter-spacing: 1px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background: linear-gradient(135deg, #1d1d81, #811d5d);
 }
 form .button input:hover{
-    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    background: linear-gradient(-135deg, #1d1d81, #811d5d);
 }
 @media (max-width: 584px){
     .container{
         max-width: 100%;
+        margin-top: 70px;
+
     }
     form .user-details .input-box{
         margin-bottom: 15px;
